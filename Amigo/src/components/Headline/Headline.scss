@@ -1,0 +1,8 @@
+@import '../../scss/index';
+
+.headline {
+
+    &--auth {
+        @include main-font--light(34px, 44px, $color-blue-dark);
+    }
+}

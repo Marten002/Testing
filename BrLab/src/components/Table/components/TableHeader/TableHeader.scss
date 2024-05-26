@@ -1,0 +1,46 @@
+@import '../../../../scss/index';
+
+.table__header {
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+
+    font-family: $font-ttnorms;
+    font-style: normal;
+
+    padding: 0 25px;
+
+    & > span {
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 15px;
+
+        color: $color-black;
+
+        margin: 0 10px 0 25px;
+    }
+
+    .table__forecast {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+
+        color: $color-grey;
+
+        margin: 0 35px 0 auto;
+    }
+
+    .table__variants {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+
+        color: $color-grey;
+
+        span {
+            margin: 0 30px;
+        }
+    }
+}

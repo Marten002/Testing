@@ -1,0 +1,19 @@
+@mixin main-font--bold($size, $height, $color) {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $size;
+    line-height: $height;
+    color: $color;
+}
+
+@mixin main-font--light($size, $height, $color) {
+    font-family: 'IBM Plex Sans' ,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $size;
+    line-height: $height;
+    color: $color;
+}
+
+/*  Example: @include main-font--light(13px, 14px, $color-ocean)  */

@@ -1,0 +1,38 @@
+@import '../../scss/index';
+
+.button {
+    position: relative;
+
+    border: none;
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    &:disabled {
+        cursor: default;
+    }
+
+    &--auth {
+        @include main-font--light(16px, 21px, $color-blue-thin);
+
+        border-radius: 6px;
+
+        padding: 18px;
+        margin-top: 37px;
+
+        width: 100%;
+
+        background-color: $color-blue;
+        box-shadow: 0 2px 4px rgba(44, 39, 56, 0.08), 0px 4px 8px rgba(44, 39, 56, 0.08);
+
+        &:disabled {
+            background-color: $color-grey;
+
+            color: $color-grey--dark;
+        }
+    }
+}

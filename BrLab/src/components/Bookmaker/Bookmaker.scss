@@ -1,0 +1,42 @@
+@import '../../scss/index';
+
+.bookmaker {
+    font-family: $font-ttnorms;
+    font-style: normal;
+    font-weight: 500;
+
+    margin-top: 35px;
+    padding: 24px;
+
+    background-color: #FFFFFF;
+    border-radius: 10px;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        border-top: 1px solid #E8E8E8;
+
+        margin-top: 8px;
+        padding-top: 8px;
+
+        &:nth-child(2) {
+            border-top: none;
+
+            margin-top: 20px;
+            padding-top: 0;
+        }
+
+        img {
+
+        }
+
+        span {
+            font-size: 15px;
+            line-height: 18px;
+
+            color: $color-black;
+        }
+    }
+}

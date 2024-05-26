@@ -1,0 +1,22 @@
+@import "../../scss/index";
+
+.headline {
+    font-family: $font-ttnorms;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #000000;
+
+    &--bookmaker {
+        width: 60%;
+    }
+
+    &--page {
+        font-size: 18px;
+        line-height: 21px;
+
+        margin-left: 50px;
+    }
+}

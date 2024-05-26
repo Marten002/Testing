@@ -1,0 +1,24 @@
+.menu {
+    font-weight: bold;
+
+    margin-top: 5px;
+
+    &__list {
+        display: flex;
+
+    }
+
+    &__item {
+        margin-left: 20px;
+    }
+
+    &__link {
+        text-decoration: none;
+
+        color: #000000;
+
+        &--active {
+            color: #248CF7;
+        }
+    }
+}

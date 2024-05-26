@@ -1,0 +1,59 @@
+@import '../../scss/index';
+
+.input {
+    margin-top: 30px;
+
+    label {
+        @include main-font--light(16px, 21px, $color-blue-light);
+
+        font-weight: 500;
+
+        display: flex;
+    }
+
+    input {
+        @include main-font--light(16px, 21px, $color-blue-dark);
+
+        font-weight: 400;
+
+        background-color: $color-white;
+
+        border: 1px solid $color-grey;
+        border-radius: 6px;
+
+        box-shadow: 0 4px 8px rgba(44, 39, 56, 0.04);
+
+        padding: 16px;
+        margin-top: 8px;
+
+        width: 100%;
+
+        &::placeholder {
+            color: $color-ocean-light;;
+        }
+
+        &:focus {
+            border: 1px solid $color-blue;
+
+            box-shadow: inset 0 0 0 2px #0880AE;
+        }
+
+        &:-webkit-autofill,
+        &:-webkit-autofill:hover,
+        &:-webkit-autofill:focus {
+            border: 1px solid $color-white;
+
+            -webkit-text-fill-color: $color-blue-dark;
+
+            box-shadow: 0 0 0 1000px $color-grey inset;
+        }
+    }
+
+    &__error {
+        @include main-font--light(14px, 18px, $color-red);
+
+        display: block;
+
+        margin-top: 8px;
+    }
+}

@@ -1,0 +1,16 @@
+.social {
+    margin-top: 40px;
+
+    &__caption {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    &__content {
+        margin-top: 40px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

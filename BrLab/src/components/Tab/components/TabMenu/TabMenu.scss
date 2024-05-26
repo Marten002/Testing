@@ -1,0 +1,52 @@
+@import '../../../../scss/index';
+
+.tab__nav {
+    display: flex;
+    align-items: center;
+
+    .tab__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 200px;
+        height: 60px;
+
+        background: $color-white;
+        border: 1px solid $color-black;
+
+        border-radius: 10px;
+
+        font-family: $font-ttnorms;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 18px;
+
+        color: $color-black;
+
+        text-decoration: none;
+
+        position: relative;
+
+        margin-right: 25px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        svg {
+            margin-right: 15px;
+        }
+
+        &--active {
+            color: $color-blue;
+
+            border: 1px solid $color-blue;
+
+            path {
+                fill: $color-blue;
+            }
+        }
+    }
+}

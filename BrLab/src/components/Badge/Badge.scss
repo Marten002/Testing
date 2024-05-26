@@ -1,0 +1,47 @@
+@import '../../scss/index';
+
+.badge {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: $font-ttnorms;
+    font-style: normal;
+    font-weight: 500;
+
+    &--tab {
+        width: 26px;
+        height: 18px;
+
+        background-color: $color-blue;
+        border-radius: 9px;
+
+        font-size: 11px;
+        line-height: 13px;
+
+        color: $color-white;
+
+        right: -12px;
+        top: -10px;
+    }
+
+    &--menu {
+        width: 20px;
+        height: 14px;
+
+        background-color: $color-blue;
+        border-radius: 7px;
+
+        font-size: 8px;
+        line-height: 9px;
+
+        color: $color-white;
+
+        right: -12px;
+        top: -10px;
+    }
+}

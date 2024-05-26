@@ -1,0 +1,423 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container .header,
+.container .footer__information {
+  width: 100%;
+  overflow: hidden;
+}
+.container .container__content {
+  width: 100%;
+  max-width: 860px;
+  height: 100%;
+  font-family: var(--main-font);
+}
+.container .container__content .content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid #D8D8D8;
+}
+.container .container__content .content:nth-child(1) {
+  border-bottom: none;
+}
+.container .container__content .content:nth-child(1) .content__offer {
+  margin-top: 8px;
+}
+.container .container__content .content:nth-child(4) .content__card .card__discription {
+  margin: 17px 0px 36px!important;
+}
+.container .container__content .content:nth-child(4) .content__card .card__discription span span {
+  display: block;
+}
+.container .container__content .content:nth-child(7) .content__offer .subOffer--card {
+  margin: 19px 0px 32px;
+}
+.container .container__content .content:nth-child(8) {
+  border-bottom: none;
+  margin-bottom: 96px;
+}
+.container .container__content .content .content__sale {
+  margin-top: 27px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #DB1F35;
+}
+.container .container__content .content .content__offer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.container .container__content .content .content__offer .offer {
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 40px;
+  color: var(--theme-color);
+}
+.container .container__content .content .content__offer .offer--card {
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 30px;
+}
+.container .container__content .content .content__offer .subOffer {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--theme-color);
+}
+.container .container__content .content .content__offer .subOffer--card {
+  margin: 19px 0px;
+}
+.container .container__content .content .content__offer .subOffer--card .text--danger {
+  display: block;
+  color: #a62c31;
+  margin: 20px 0px 13px;
+}
+.container .container__content .content .content__card {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.container .container__content .content .content__card .card {
+  display: flex;
+}
+.container .container__content .content .content__card .card--main {
+  margin: 39px 0px 35px;
+  justify-content: space-between;
+}
+.container .container__content .content .content__card .card--main .card__preview {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.container .container__content .content .content__card .card--main .card__preview .img--main-card {
+  max-width: 291px;
+  max-height: 291px;
+}
+.container .container__content .content .content__card .card--main .card__discription {
+  flex: 2;
+  padding: 18px 37px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--theme-color);
+}
+.container .container__content .content .content__card .card--main .card__discription span:nth-child(2) {
+  display: block;
+  margin-top: 20px;
+}
+.container .container__content .content .content__card .card--small {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .container__content .content .content__card .card--small .card__discription {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--theme-color);
+  text-align: center;
+  margin: 17px 0px 28px;
+}
+.container .container__content .content .content__list {
+  margin: 17px 0px 32px;
+}
+.container .container__content .content .content__list .list__item {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--theme-color);
+  margin: 15px 0px;
+}
+.container .container__content .content .content__list .list__item:nth-child(1) {
+  margin-top: 0!important;
+}
+.container .container__content .content .content__list .list__item:nth-child(4) {
+  margin-bottom: 0!important;
+}
+.container .container__content .content .grid {
+  margin-top: 38px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.container .container__content .content .grid__column {
+  display: flex;
+  flex-direction: column;
+}
+.container .container__content .content .grid__column:nth-child(1) .grid__item {
+  margin-left: 0px;
+}
+.container .container__content .content .grid__column:nth-child(1) .grid__item:nth-child(1) {
+  margin-top: 0;
+}
+.container .container__content .content .grid__column:nth-child(1) .grid__item:nth-child(2) {
+  margin-top: 0;
+}
+.container .container__content .content .grid__column:nth-child(1) .grid__item:nth-child(3) {
+  margin-top: 0;
+}
+.container .container__content .content .grid__column:nth-child(1) .grid__item:nth-child(4) {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.container .container__content .content .grid__column:nth-child(2) .grid__item {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.container .container__content .content .grid__column:nth-child(2) .grid__item:nth-child(1) {
+  margin-top: 0;
+}
+.container .container__content .content .grid__column:nth-child(2) .grid__item:nth-child(2) {
+  margin-top: 0;
+}
+.container .container__content .content .grid__column:nth-child(2) .grid__item:nth-child(3) {
+  margin-top: 0;
+}
+.container .container__content .content .grid__column:nth-child(2) .grid__item:nth-child(4) {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.container .container__content .content .grid__column:nth-child(3) .grid__item {
+  margin-right: 0px;
+}
+.container .container__content .content .grid__column:nth-child(3) .grid__item:nth-child(1) {
+  margin-top: 0;
+}
+.container .container__content .content .grid__column:nth-child(3) .grid__item:nth-child(2) {
+  margin-top: 0;
+}
+.container .container__content .content .grid__column:nth-child(3) .grid__item:nth-child(3) {
+  margin-top: 0;
+}
+.container .container__content .content .grid__column:nth-child(3) .grid__item:nth-child(4) {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.container .container__content .content .grid__column .grid__item {
+  margin: 18px;
+}
+.container .container__content .content .grid__column .grid__item--header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 21px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--theme-color);
+}
+.container .container__content .content .grid__column .grid__item--small {
+  width: 150px;
+  height: 220px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--theme-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 10px;
+}
+.container .container__content .content .grid__column .grid__item--bigger {
+  width: 360px;
+  height: 220px;
+}
+.container .container__content .content .grid__column .grid__item--gray {
+  background-color: #F4F4F4;
+}
+.container .footer {
+  background-color: #f7f8f9;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: var(--main-font);
+}
+.container .footer .footer__title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 60px 0px 60px;
+  font-family: Tahoma;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 22px;
+}
+.container .footer .footer__form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container .footer .footer__form .footer__container {
+  width: 100%;
+  height: 100%;
+  max-width: 1100px;
+}
+.container .footer .footer__form .footer__container .form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.container .footer .footer__form .footer__container .form .form--container {
+  display: flex;
+  justify-content: space-between;
+}
+.container .footer .footer__form .footer__container .form .form--container .form__item {
+  flex: 1;
+  position: relative;
+}
+.container .footer .footer__form .footer__container .form .form--container .form__item:nth-child(1) {
+  margin-right: 10px;
+}
+.container .footer .footer__form .footer__container .form .form--container .form__item:nth-child(2) {
+  margin-left: 10px;
+}
+.container .footer .footer__form .footer__container .form .form--container .form__item .input--container {
+  position: relative;
+  margin-top: 20px;
+}
+.container .footer .footer__form .footer__container .form .form--container .form__item .input--container:nth-child(1) {
+  margin-top: 0;
+}
+.container .footer .footer__form .footer__container .form .form--container .form__item .input--container .form__label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 10px;
+  left: 0;
+  font-size: 18px;
+  color: #b0b0c0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: text;
+  opacity: 1;
+}
+.container .footer .footer__form .footer__container .form .form--container .form__item .input--container .form__input[type="text"] {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #b0b0c0;
+  font-size: 18px;
+  padding: 2px 10px;
+  transition: all 0.4s ease-in-out;
+}
+.container .footer .footer__form .footer__container .form .form--container .form__item .clip--container {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.container .footer .footer__form .footer__container .form .form--container .form__item .clip--container img {
+  margin-right: 5px;
+}
+.container .footer .footer__form .footer__container .form .form--container .form__item .clip--container .clip {
+  color: #DB1F35;
+}
+.container .footer .footer__form .footer__container .form .form--container .form__item .form__label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 18px;
+  color: #b0b0c0;
+  cursor: text;
+}
+.container .footer .footer__form .footer__container .form .form--container .form__item .textarea {
+  max-width: 100%;
+  width: 100%;
+  height: 160px;
+  resize: none;
+  border: 1px solid #b0b0c0;
+  font-size: 18px;
+  padding: 10px 10px;
+}
+.container .footer .footer__form .footer__container .form .form__item--checkbox {
+  margin: 20px auto 0 calc(50% + 20px);
+  width: 50%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.container .footer .footer__form .footer__container .form .form__item--checkbox .form__label {
+  display: block;
+  position: relative;
+  font-size: 16px;
+  user-select: none;
+  padding-left: 35px;
+  cursor: pointer;
+}
+.container .footer .footer__form .footer__container .form .form__item--checkbox .form__label .form__input--checkbox {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+  cursor: pointer;
+}
+.container .footer .footer__form .footer__container .form .form__item--checkbox .form__label .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #b0b0c0;
+}
+.container .footer .footer__form .footer__container .form .form__item--checkbox .form__label .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container .footer .footer__form .footer__container .form .form__item--checkbox .form__label .form__input--checkbox:checked ~ .checkmark {
+  background-color: #DB1F35;
+}
+.container .footer .footer__form .footer__container .form .form__item--checkbox .form__label .form__input--checkbox:checked ~ .checkmark:after {
+  display: block;
+  left: 6px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: 1px solid #fff;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+.container .footer .footer__form .footer__container .form .form__item--checkbox .privacy {
+  position: absolute;
+  bottom: -35px;
+  left: 35px;
+  font-size: 12px;
+  padding-bottom: 2px;
+  border-bottom: 1px dashed #000;
+}
+.container .footer .footer__form .footer__container .form .form__item--checkbox .privacy:hover {
+  color: #DB1F35;
+  border-bottom-color: #DB1F35;
+}
+.container .footer .footer__form .footer__container .form .form__button {
+  margin: 80px auto 50px calc(50% + 75px);
+}
+.container .footer .footer__form .footer__container .form .form__button .btn {
+  color: #fff;
+  font-size: 18px;
+  position: relative;
+  border-radius: 50px;
+}
+.container .footer .footer__form .footer__container .form .form__button .btn--danger {
+  background-color: #DB1F35;
+}
+.container .footer .footer__form .footer__container .form .form__button .btn--bigger {
+  padding: 20px 70px;
+}

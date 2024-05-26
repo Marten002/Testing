@@ -1,0 +1,17 @@
+/*-----------------------------------------------
+|   User
+-----------------------------------------------*/
+
+.user-button {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.user-select {
+  max-width: 80px;
+}
+
+.user-choose-text {
+  font-size: map_get($font-sizes, '-1');
+}

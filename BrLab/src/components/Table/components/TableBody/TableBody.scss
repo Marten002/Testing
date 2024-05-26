@@ -1,0 +1,111 @@
+@import '../../../../scss/index';
+
+.table__body {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 60px;
+
+    background-color: $color-white;
+
+    //padding: 0 20px;
+
+    font-family: $font-ttnorms;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+
+    border-top: 1px solid $color-white--dark;
+
+    &-time {
+        color: $color-grey;
+
+        margin: 0 15px 0 20px;
+    }
+
+    .status {
+        margin-left: 15px;
+
+        &--online {
+            color: $color-green--light;
+        }
+
+        &--finished {
+            color: $color-red;
+
+            margin-right: 23px;
+        }
+
+        &--pause {
+            color: $color-blue;
+
+            margin-right: 21px;
+        }
+
+        &--denial {
+            color: $color-grey;
+
+            margin-right: 6px;
+        }
+    }
+
+    .flag {
+        border-radius: 3px;
+
+        width: 11px;
+        height: 14px;
+
+        margin: 0 10px;
+
+        &--yellow {
+            background-color: $color-orange;
+        }
+
+        &--red {
+            background-color: $color-red;
+        }
+    }
+
+    &-player {
+        color: $color-black;
+
+        span {
+            font-weight: bold;
+        }
+    }
+
+    .table__watch {
+        display: flex;
+        align-items: center;
+
+        margin-left: 30px;
+
+        text-decoration: none;
+
+        span {
+            margin-left: 8px;
+
+            color: $color-blue;
+        }
+    }
+
+    &-forecast {
+        color: #000000;
+
+        margin: 0 50px 0 auto;
+    }
+
+    .table__coefficient {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-left: 10px;
+
+        span {
+            margin-left: 2px;
+        }
+    }
+}

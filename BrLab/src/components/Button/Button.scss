@@ -1,0 +1,73 @@
+@import '../../scss/index';
+
+.button {
+    border: none;
+    border-radius: 22.5px;
+
+    font-weight: 500;
+    color: $color-white;
+
+    cursor: pointer;
+
+    &--header {
+        background-color: $color-blue;
+
+        width: 100px;
+        height: 35px;
+
+        margin-left: 20px;
+    }
+
+    &--bookmaker {
+        background-color: $color-blue;
+
+        width: 100px;
+        height: 30px;
+    }
+
+    &--forecast, &--coefficient {
+        background-color: transparent;
+
+        width: 56px;
+        height: 30px;
+
+        border: 1px solid #DE0505;
+
+        font-size: 15px;
+        line-height: 18px;
+
+        color: #DE0505;
+    }
+
+    &--slider {
+        background: #248CF7;
+        border-radius: 10px;
+
+        position: absolute;
+        top: 50%;
+
+        transform: translateY(-50%);
+
+        width: 30px;
+        height: 30px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-prev {
+            left: 0;
+        }
+
+        &-next {
+            right: 0;
+        }
+    }
+
+    &--footer {
+        width: 165px;
+        height: 35px;
+
+        background-color: $color-green
+    }
+}

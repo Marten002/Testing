@@ -1,0 +1,84 @@
+@import '../../scss/index';
+
+.checkbox {
+    user-select: none;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+
+    &--auth {
+        margin-top: 30px;
+    }
+
+    input {
+        position: absolute;
+
+        top: 0;
+        left: 0;
+
+        width: 28px;
+        height: 100%;
+
+        opacity: 0;
+
+        cursor: pointer;
+    }
+
+    &__mark {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 28px;
+        width: 28px;
+        min-height: 28px;
+        min-width: 28px;
+
+        background-color: $color-white;
+
+        border: 1px solid $color-grey;
+        border-radius: 4px;
+
+        box-shadow: 0 4px 8px rgba(44, 39, 56, 0.04);
+
+        img {
+            display: none;
+        }
+
+        &--checked {
+            border: 2px solid $color-blue;
+
+            img {
+                display: block;
+            }
+        }
+    }
+
+    label {
+        @include main-font--light(16px, 21px, $color-blue-dark);
+
+        font-weight: 400;
+
+        padding-left: 8px;
+
+        cursor: pointer;
+
+        a {
+            text-decoration: none;
+
+            color: $color-blue;
+        }
+    }
+
+    &__error {
+        @include main-font--light(14px, 18px, $color-red);
+
+        display: block;
+
+        margin-top: 8px;
+    }
+}

@@ -1,0 +1,12 @@
+.table {
+
+    .container--table {
+
+        &:nth-child(2) {
+
+            .table__body {
+                border-top: none;
+            }
+        }
+    }
+}

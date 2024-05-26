@@ -1,0 +1,23 @@
+@import '../../../../scss/index';
+
+.footer__menu {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    max-width: 600px;
+
+    .footer__item {
+        font-size: 15px;
+        line-height: 25px;
+        white-space: nowrap;
+
+        color: $color-grey;
+
+        text-decoration: none;
+
+        margin: 10px 0;
+
+        width: 33%;
+    }
+}

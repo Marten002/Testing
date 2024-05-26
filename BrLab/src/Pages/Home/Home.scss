@@ -1,0 +1,15 @@
+@import '../../scss/index';
+
+.home {
+    background-color: $color-grey--light;
+
+    overflow: hidden;
+
+    &__container {
+        margin: 0 auto;
+        padding: 35px 100px 45px;
+
+        display: flex;
+        justify-content: space-between;
+    }
+}

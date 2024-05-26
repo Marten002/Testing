@@ -1,0 +1,27 @@
+@import '../../scss/index';
+
+.auth {
+    margin: 100px auto;
+    padding: 40px 30px;
+
+    min-width: 360px;
+    width: 100%;
+
+    background-color: $color-white;
+
+    box-shadow: 0 12px 24px rgba(44, 39, 56, 0.02), 0 32px 64px rgba(44, 39, 56, 0.04);
+
+    border-radius: 24px;
+
+    &__information {
+        @include main-font--light(16px, 22px, $color-blue-dark);
+
+        margin-top: 8px;
+
+        a {
+            color: $color-ocean;
+
+            text-decoration: none;
+        }
+    }
+}

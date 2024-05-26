@@ -1,0 +1,11 @@
+@import './scss/index';
+
+.app {
+    min-height: 100vh;
+
+    display: flex;
+
+    background-color: $color-white;
+
+    padding: 20px;
+}

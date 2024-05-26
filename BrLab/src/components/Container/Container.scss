@@ -1,0 +1,52 @@
+@import '../../scss/index';
+
+.container {
+    position: relative;
+
+    display: flex;
+
+    &--header {
+        align-items: center;
+    }
+
+    &--home {
+        flex-direction: column;
+
+        max-width: 75%;
+
+        overflow: hidden;
+
+        margin-right: 35px;
+    }
+
+    &--center {
+        align-items: center;
+    }
+
+    &--information {
+        flex-direction: column;
+    }
+
+    &--table {
+        padding: 0 20px;
+
+        background-color: $color-white;
+    }
+
+    &--aside {
+        flex-direction: column;
+
+        min-width: 25%;
+        max-width: 25%;
+    }
+
+    &--footer {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    &--social {
+        flex-direction: column;
+        align-items: center;
+    }
+}

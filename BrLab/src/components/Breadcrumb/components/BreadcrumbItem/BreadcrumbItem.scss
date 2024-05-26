@@ -1,0 +1,17 @@
+@import "../../../../scss/index";
+
+.breadcrumb__item {
+    font-family: $font-ttnorms;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: $color-grey;
+
+    text-decoration: none;
+
+    &--active {
+        color: $color-blue;
+    }
+}

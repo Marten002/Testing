@@ -1,0 +1,32 @@
+@import '../../../../scss/index';
+
+.page {
+    margin-top: 35px;
+
+    &__menu {
+        margin-top: 60px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        font-family: $font-ttnorms;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 18px;
+
+        .menu {
+            margin: 0;
+
+            &__item {
+                margin-left: 0;
+                margin-right: 20px;
+            }
+
+            &__link {
+                position: relative;
+            }
+        }
+    }
+}

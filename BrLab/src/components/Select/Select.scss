@@ -1,0 +1,58 @@
+@import '../../scss/index';
+
+.select {
+    border: 1px solid $color-grey;
+
+    border-radius: 10px;
+
+    width: 160px;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: $font-ttnorms;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: $color-black;
+
+    cursor: pointer;
+
+    position: relative;
+
+    &__current {
+
+        img {
+            margin-left: 10px;
+        }
+    }
+
+    &__content {
+        position: absolute;
+        right: 0;
+        top: 40px;
+
+        width: 100%;
+
+        z-index: 10;
+
+        border: 1px solid $color-grey;
+        border-radius: 10px;
+    }
+
+    &__item {
+        padding: 10px 15px;
+
+        cursor: pointer;
+
+        border-bottom: 1px solid $color-grey;
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}

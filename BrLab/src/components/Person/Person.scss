@@ -1,0 +1,28 @@
+@import '../../scss/index';
+
+.person {
+    display: flex;
+    align-items: center;
+
+    font-family: $font-ttnorms;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    margin: 30px 30px 30px 0;
+
+    &__image {
+
+    }
+
+    &__caption {
+        margin: 0 10px;
+
+        color: $color-black;
+    }
+
+    &__count {
+        color: $color-black;
+    }
+}

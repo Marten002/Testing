@@ -1,0 +1,126 @@
+.auth {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.auth__head {
+    margin-bottom: 30px;
+}
+.title span {
+    display: block;
+    color: #43425D;
+    font-size: 30px;
+    line-height: 21px;
+    font-weight: 700;
+    font-family: 'Museo Sans Cyrl';
+    text-align: center;
+}
+.subtitle {
+    margin-top: 20px;
+}
+.subtitle span {
+    display: block;
+    font-size: 15px;
+    line-height: 13px;
+    font-weight: 500;
+    font-family: 'Museo Sans Cyrl';
+    color: rgba(77, 79, 92, .5);
+    text-align: center;
+}
+.auth__body {
+    margin: 0 auto;
+}
+.auth__body .auth__form {
+    min-width: 400px;
+    max-width: 400px;
+}
+.auth__form .form__item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 33px;
+    margin-top: 30px;
+}
+.form__item .form__label {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #43425D;
+    font-family: Museo Sans Cyrl;
+    transition: all .4s ease-in-out;
+}
+.form__label.form__label--active {
+    top: -15px;
+    transition: all .4s ease-in-out;
+}
+.form__item .form__input {
+    width: 100%;
+    height: 100%;
+    min-height: 33px;
+    border: none;
+    border-bottom: 1px solid #E9E9F0;
+}
+.form__item--checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form__item--checkbox .checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 33px;
+}
+.checkbox .form__label {
+    margin-left: 30px;
+}
+.checkbox .form__input--checkbox {
+    min-height: auto;
+    width: 18px;
+    height: 18px;
+}
+.restore {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.restore .restore--link {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #39B2C2;
+    font-family: Museo Sans Cyrl;
+    text-decoration: none;
+}
+.btn {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Museo Sans Cyrl;
+    border-radius: 30px;
+    border: none;
+    position: relative;
+}
+.btn--auth {
+    margin-top: 40px;
+}
+.btn--gradient {
+    background: linear-gradient(90deg, rgba(121,183,238,1) 0%, rgba(103,230,189,1) 100%);
+}
+.btn--small {
+    width: 140px;
+    height: 50px;
+    
+}

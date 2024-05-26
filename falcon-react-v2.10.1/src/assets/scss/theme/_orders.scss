@@ -1,0 +1,23 @@
+/*-----------------------------------------------
+|   Orders
+-----------------------------------------------*/
+
+.orders-status {
+
+  &--success {
+    color: $success;
+  }
+
+  &--hold {
+    color: $secondary;
+  }
+
+  &--pending, &--processing {
+    color: $warning;
+  }
+}
+
+.orders-image {
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}

@@ -1,0 +1,29 @@
+*** |                       | ***
+*** / Dmitriy Gubin develop \ ***
+*** |                       | ***
+
+HTML5, less (auto compile VS Code plugin) -> to CSS3
+
+assets/
+  css/
+    media/
+        -> media.less [dev]
+        -> media.css [prod]
+    reset/
+        -> reset.css [dev] & [prod]
+    /
+        -> style.css [style.less] [dev]
+    /
+        -> style.min.css [PROD style]
+    fonts/
+        -> 9688.ttf [font] "Tahoma"
+    images/
+        card-image/
+            card images [gif, png]
+        footer/
+            footer image [png]
+        header/
+            header image [png]
+        grid-image/
+            grid images [png]
+

@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Proxima Nova light";
+    src: url("../font/ProximaNova-Light.ttf");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url(../font/ProximaNova-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+:root {
+    --main-font: 'Proxima Nova', sans-serif;
+    --light-font: 'Proxima Nova light', sans-serif;
+    --main-color: #000;
+}
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body {
+    background-color: #f7fafc;
+    overflow-x: hidden;
+    height: 100%; 
+    /*height: 3000px;*/
+    line-height: 1;
+}
+html, body, div, span, iframe, 
+h1, h2, h3, h4, h5, 
+h6, p, a, ul, li, 
+form, table, tbody, tfoot, thead, 
+tr, th, td, footer, header, 
+menu, nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+header, nav {
+    display: initial;
+    width: 100%;
+}
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+input[type=search] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+a {
+    color: inherit;
+    background: transparent;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none; 
+}
+a:hover, a:active {
+    outline: 0;
+    text-decoration: none; 
+}
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    overflow: visible; 
+}
+button:active {
+    outline: none;
+}
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:focus {
+    outline: 0;
+}

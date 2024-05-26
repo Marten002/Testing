@@ -1,0 +1,44 @@
+@import '../../scss/index';
+
+.footer {
+    background-color: $color-grey--dark;
+
+    width: 100%;
+
+    font-family: $font-ttnorms;
+    font-style: normal;
+    font-weight: 500;
+
+    color: #BABABA;
+
+    &__container {
+        margin: 0 auto;
+        padding: 50px 100px 55px;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__information {
+        font-size: 12px;
+        line-height: 14px;
+
+        max-width: 250px;
+
+        span {
+            display: flex;
+
+            margin-top: 20px;
+        }
+
+        a {
+            display: flex;
+
+            margin-top: 20px;
+
+            text-decoration: underline;
+
+            color: $color-grey;
+        }
+    }
+}
